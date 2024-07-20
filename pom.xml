@@ -10,6 +10,15 @@
         <module>netty-common</module>
         <module>netty-mqtt</module>
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/bfyxzls/maven_repo</url>
+        </repository>
+    </distributionManagement>
+
     <!-- 版本号 -->
     <properties>
         <common.version>1.0.0.RELEASE</common.version>
