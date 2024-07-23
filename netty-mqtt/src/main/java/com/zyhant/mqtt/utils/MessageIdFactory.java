@@ -1,4 +1,4 @@
-package com.zyhant.mqtt;
+package com.zyhant.mqtt.utils;
 
 import java.util.Hashtable;
 

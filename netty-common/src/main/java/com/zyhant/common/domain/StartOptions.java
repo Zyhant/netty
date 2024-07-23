@@ -9,6 +9,10 @@ public class StartOptions {
 
     private int port;
 
+    private int parentGroup = 1;
+
+    private int childGroup = 0;
+
     private int queue = 1024;
 
     private int buffer = 10485760;
@@ -29,6 +33,22 @@ public class StartOptions {
      */
     public void setPort(int port) {
         this.port = port;
+    }
+
+    /**
+     * 设置负责接收accept消息的线程组
+     * @param parentGroup 数量
+     */
+    public void setParentGroup(int parentGroup) {
+        this.parentGroup = parentGroup;
+    }
+
+    /**
+     * 设置负责接收读写消息的线程组
+     * @param childGroup 数量
+     */
+    public void setChildGroup(int childGroup) {
+        this.childGroup = childGroup;
     }
 
     /**
