@@ -1,4 +1,4 @@
-package com.zyhant.mqtt.domain;
+package com.zyhant.netty.mqtt.domain;
 
 import io.netty.channel.Channel;
 

@@ -1,6 +1,6 @@
-package com.zyhant.mqtt.domain;
+package com.zyhant.netty.mqtt.domain;
 
-import com.zyhant.common.domain.NettyConfig;
+import com.zyhant.netty.common.domain.NettyConfig;
 
 /**
  * @author zyhant

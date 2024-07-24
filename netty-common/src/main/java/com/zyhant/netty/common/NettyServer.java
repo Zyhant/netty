@@ -1,7 +1,7 @@
-package com.zyhant.common;
+package com.zyhant.netty.common;
 
-import com.zyhant.common.domain.NettyConfig;
-import com.zyhant.common.domain.StartOptions;
+import com.zyhant.netty.common.domain.NettyConfig;
+import com.zyhant.netty.common.domain.StartOptions;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.*;

@@ -1,6 +1,6 @@
-package com.zyhant.common.domain;
+package com.zyhant.netty.common.domain;
 
-import com.zyhant.common.listener.CacheListener;
+import com.zyhant.netty.common.listener.CacheListener;
 
 /**
  * 配置

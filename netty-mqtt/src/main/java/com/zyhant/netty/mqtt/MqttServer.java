@@ -1,11 +1,10 @@
-package com.zyhant.mqtt;
+package com.zyhant.netty.mqtt;
 
-import com.zyhant.common.NettyServer;
-import com.zyhant.common.domain.NettyConfig;
-import com.zyhant.mqtt.core.*;
-import com.zyhant.mqtt.domain.MqttConfig;
-import com.zyhant.mqtt.domain.MqttLogin;
-import com.zyhant.mqtt.domain.MqttPublish;
+import com.zyhant.netty.common.NettyServer;
+import com.zyhant.netty.mqtt.domain.MqttConfig;
+import com.zyhant.netty.mqtt.domain.MqttLogin;
+import com.zyhant.netty.mqtt.domain.MqttPublish;
+import com.zyhant.netty.mqtt.core.*;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelPipeline;

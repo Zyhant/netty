@@ -1,4 +1,4 @@
-package com.zyhant.mqtt.utils;
+package com.zyhant.netty.mqtt.utils;
 
 import io.netty.buffer.Unpooled;
 import io.netty.handler.codec.mqtt.*;

@@ -1,4 +1,4 @@
-package com.zyhant.mqtt.domain;
+package com.zyhant.netty.mqtt.domain;
 
 /**
  * 缓存的key 常量

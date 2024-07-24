@@ -1,4 +1,4 @@
-package com.zyhant.common.domain;
+package com.zyhant.netty.common.domain;
 
 /**
  * 启动配置

@@ -1,11 +1,11 @@
-package com.zyhant.mqtt.core;
+package com.zyhant.netty.mqtt.core;
 
-import com.zyhant.mqtt.domain.CacheConstants;
-import com.zyhant.mqtt.domain.MqttClient;
-import com.zyhant.mqtt.domain.MqttConfig;
-import com.zyhant.mqtt.domain.MqttPublish;
-import com.zyhant.mqtt.utils.MessageIdFactory;
-import com.zyhant.mqtt.utils.ProtocolUtils;
+import com.zyhant.netty.mqtt.domain.CacheConstants;
+import com.zyhant.netty.mqtt.domain.MqttClient;
+import com.zyhant.netty.mqtt.domain.MqttConfig;
+import com.zyhant.netty.mqtt.domain.MqttPublish;
+import com.zyhant.netty.mqtt.utils.MessageIdFactory;
+import com.zyhant.netty.mqtt.utils.ProtocolUtils;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.mqtt.*;

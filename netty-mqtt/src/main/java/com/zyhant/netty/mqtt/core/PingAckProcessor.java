@@ -1,8 +1,8 @@
-package com.zyhant.mqtt.core;
+package com.zyhant.netty.mqtt.core;
 
-import com.zyhant.common.domain.NettyConfig;
-import com.zyhant.mqtt.domain.CacheConstants;
-import com.zyhant.mqtt.domain.MqttClient;
+import com.zyhant.netty.common.domain.NettyConfig;
+import com.zyhant.netty.mqtt.domain.CacheConstants;
+import com.zyhant.netty.mqtt.domain.MqttClient;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.mqtt.MqttFixedHeader;
 import io.netty.handler.codec.mqtt.MqttMessage;
