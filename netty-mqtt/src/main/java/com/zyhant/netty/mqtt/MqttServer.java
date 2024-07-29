@@ -18,11 +18,11 @@ import java.util.Collection;
  * @author zyhant
  * @date 2024/7/23 20:28
  */
-public abstract class MqttServer extends NettyServer<MqttConfig> {
+public abstract class MqttServer<T extends MqttConfig> extends NettyServer<T> {
 
     private static final Logger log = LoggerFactory.getLogger(MqttServer.class);
 
-    public MqttServer(MqttConfig config) {
+    public MqttServer(T config) {
         super(config);
     }
 
