@@ -18,7 +18,7 @@
         <!-- 通用库 -->
         <dependency>
             <groupId>com.zyhant.netty</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>netty-common</artifactId>
             <version>${common.version}</version>
         </dependency>
     </dependencies>

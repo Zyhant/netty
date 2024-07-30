@@ -9,7 +9,7 @@
 
     <modules>
         <module>netty-common</module>
-        <module>netty-mqtt</module>
+        <module>mqtt-server</module>
     </modules>
 
     <!-- 版本号 -->
